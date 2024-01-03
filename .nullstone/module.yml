@@ -1,0 +1,15 @@
+org_name: Evolve
+name: aws-amplify-access
+friendly_name: AWS Amplify Access
+description: Capability to provide access to an AWS Amplify app
+category: capability
+subcategory: datastores
+provider_types:
+    - aws
+platform: amplify
+subplatform: ""
+type: ""
+appCategories:
+    - container
+    - serverless
+is_public: false
