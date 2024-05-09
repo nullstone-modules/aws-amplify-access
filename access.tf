@@ -22,6 +22,7 @@ data "aws_iam_policy_document" "update-api" {
 
     actions = [
       "appsync:UpdateGraphqlApi",
+      "appsync:UpdateDataSource",
     ]
 
     resources = ["*"]
