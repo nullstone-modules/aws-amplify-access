@@ -21,6 +21,7 @@ data "aws_iam_policy_document" "update-api" {
     effect = "Allow"
 
     actions = [
+      "appsync:ListDataSources",
       "appsync:UpdateGraphqlApi",
       "appsync:UpdateDataSource",
     ]
